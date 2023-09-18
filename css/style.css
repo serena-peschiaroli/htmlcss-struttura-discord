@@ -31,3 +31,44 @@
 .square1 , .square3 {
     width: 20%;
 }
+
+.section {
+    display: flex;
+   height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper1 {
+    background-color: blue;
+}
+.card1 {
+    height: 300px;
+    background-color: palevioletred;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.wrapper2 {
+    background-color: white;
+}
+
+.card {
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px dashed black;
+}
+
+.card2{
+    background-color: lightblue;
+    width: 40%;
+   
+}
+.card2a {
+    background-color: lightpink;
+    width: 20%;
+}
+
