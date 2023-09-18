@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.head-container {
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 2.8rem;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+
+}
+.con {
+    background-color: orange;
+    border: 1px dashed black;
+}
+.square2 {
+
+    width: 40%;
+
+
+}
+.square1 , .square3 {
+    width: 20%;
+}
