@@ -4,12 +4,64 @@
     box-sizing: border-box;
 
 }
-.head-container {
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    border: 1px solid black;
+}
+.align-items-center {
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+}
+
+.header-top {
+    height: 5rem;
+    background-color: lightblue;
+    display: flex;
+}
+
+.header-logo, 
+.header-actions {
+    width: 20%;
+    border: 1px solid white;
+}
+
+.header-nav {
+    flex-grow: 1;
+    border: 1px dashed white;
+
+}
+
+.header-actions {
+    text-align: right;
+}
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.header-nav li {
+    margin: 0 5rem;
+}
+
+
+/* .head-container {
     background-color: lightblue;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 2.8rem;
+    height: 5rem;
     width: 100%;
     align-items: center;
     margin-left: auto;
@@ -17,7 +69,7 @@
     justify-content: center;
 
 
-}
+} */
 .con {
     background-color: orange;
     border: 1px dashed black;
@@ -125,27 +177,80 @@ hr {
     color: white;
 }
 
-
-.foot-container {
+/* footer {
     background-color: rgb(76, 75, 75);
-    width: 100%;
-    display: flex;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
 }
 
+.foot-container {
+    width: 100%;
+    display: flex;
+    min-height: 100px;
+   margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+.justify-between {
+    justify-content: space-between;
+}
 .link-wrapper {
     background-color: lightskyblue;
     width: 80%;
-    height: 80%;
+    min-height: 100px;
     flex-direction: row;
+    
 }
 .foot {
     background-color: lightpink;
     width: 10%;
     border: 1px dashed black;
+    }  */
+    
+    
 
+.row {
+    display: flex;
+
+}  
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+footer {
+    /* Debug */
+    background-color: darkslategrey;
+}
+
+.main-column {
+    width: 30%;
+    /* Debug */
+    background-color: lightcyan;
+    min-height: 400px;
+}
+
+.menu-column {
+    width: 70%;
+    display: flex;
+    /* Debug */
+    background-color: lightpink;
+    min-height: 400px;
+}
+
+.footer-menu {
+    width: calc(100% / 4);
+    /* Debug */
+    border: 1px dashed gray;
+    min-height: 400px;
+}
+
+.footer-bottom {
+   /* Debug */
+   border-top: 1px solid white;
+}
+
+.footer-bottom .container {
+    padding: 1rem 0;
+    /* Debug */
+    background-color: lightblue;
 }
